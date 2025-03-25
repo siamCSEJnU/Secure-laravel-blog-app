@@ -61,4 +61,14 @@ Start the development server:
 ```bash
 php artisan serve
 ```
+### Screenshots
+1. Login and Registration 
+  ![image](https://github.com/user-attachments/assets/82950e94-670f-4aa1-8587-945f46268f30)
+
+2. Posts UI
+   ![image](https://github.com/user-attachments/assets/d9d159c4-5de3-4542-ae24-d51ff445d622)
+
+3. Create Posts
+   ![image](https://github.com/user-attachments/assets/7270f36a-a8ad-4882-9086-a39e9f123207)
+
 
