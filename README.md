@@ -42,8 +42,8 @@ A complete blog application with user authentication and secure CRUD operations 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/laravel-blog.git
-cd laravel-blog
+git clone https://github.com/yourusername/Secure-laravel-blog-app.git
+cd Secure-laravel-blog-app
 ```
 
 ### Install Dependencies
