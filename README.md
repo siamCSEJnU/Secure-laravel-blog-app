@@ -19,10 +19,11 @@ A complete blog application with user authentication and secure CRUD operations 
   - User-specific post ownership
 
 - **🛡️ Security Features**
-  - CSRF protection on all forms
-  - SQL injection prevention
-  - XSS protection
-  - Form validation
+  - 🛡️ CSRF protection on all forms
+  - 🔒 Bcrypt password hashing
+  - 🚫 SQL injection prevention
+  - ✂️ XSS protection
+
 
 - **🎨 Modern UI**
   - Responsive design with Tailwind CSS
@@ -43,40 +44,21 @@ A complete blog application with user authentication and secure CRUD operations 
 ```bash
 git clone https://github.com/yourusername/laravel-blog.git
 cd laravel-blog
+```
 
-## Learning Laravel
+### Install Dependencies
+```bash
+composer install
+npm install
+```
+### Setup Database
+```bash
+php artisan migrate
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Running the Application
+Start the development server:
+```bash
+php artisan serve
+```
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Securite Features
-
-- **🛡️ CSRF protection on all forms**
-- **🔒 Bcrypt password hashing**
-- **🚫 SQL injection prevention**
-- **✂️ XSS protection**
-- **🔄 Secure session management**
--
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
